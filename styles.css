@@ -118,6 +118,24 @@ body {
 }
 .hero-visual img { display: block; width: 100%; height: auto; }
 .hero-visual figcaption { padding: 10px 12px; color: var(--muted); font-size: 14px; }
+.trust-strip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+  width: fit-content;
+}
+.trust-strip img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #fff;
+}
 
 .section { position: relative; z-index: 1; padding: 48px 6vw; }
 .section + .section { margin-top: 12px; }
