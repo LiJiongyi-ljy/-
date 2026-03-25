@@ -218,7 +218,7 @@ body {
   overflow: hidden;
   box-shadow: var(--shadow);
 }
-.gallery img { display: block; width: 100%; height: auto; max-width: 200px; margin: 0 auto;}
+.gallery img { display: block; width: 100%; height: auto; max-width: 250px; margin: 0 auto;}
 .gallery figcaption { padding: 10px 12px; color: var(--muted); font-size: 14px; }
 
 .site-footer {
